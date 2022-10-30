@@ -1,0 +1,99 @@
+@mixin myButton {
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  transition: background-color 0.2s linear;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: #E8E8E8;
+    color: #8D8E97;
+  }
+
+}
+
+.premary-button {
+  @include myButton();
+  background-color: #2231AA;
+  color: #FFFFFF;
+
+  &:not([disabled]):hover {
+    background-color: #5360CD;
+  }
+}
+
+.secondary-button {
+  @include myButton();
+  background: #E8E8E8;
+  color: #313037;
+
+  &:not([disabled]):hover {
+    background-color: #DADADA;
+  }
+}
+
+.secondary2-button {
+  @include myButton();
+  background: transparent;
+  color: #FD3419;
+
+  &:not([disabled]):hover {
+    background-color: transparent;
+    box-shadow: 0px 0px 1px 2px #E5E5E5 inset;
+  }
+}
+
+.button-with-icon {
+  @include myButton();
+  background-color: #E8E8E8;
+  color: #313037;
+
+  &:not([disabled]):hover {
+    background-color: #5360CD;
+    color: #FFFFFF;
+  }
+}
+
+.like-button {
+  @include myButton();
+  background-color: #E8E8E8;
+  color: #313037;
+
+  &:not([disabled]):hover {
+    background-color: #FD3419;
+    color: #FFFFFF;
+  }
+}
+
+.dizlike-button {
+  @include myButton();
+  background-color: #E8E8E8;
+  color: #313037;
+
+  &:not([disabled]):hover {
+    background-color: #5360CD;
+    color: #FFFFFF;
+  }
+}
+
+.icon-like-button {
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+  text-align: center;
+
+}
+
+.icon-flag-button {
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+  margin-right: 10px;
+  text-align: center;
+}
