@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+.primary-button {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #2231AA;
+  color: #FFFFFF;
+}
+.primary-button svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.primary-button:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.primary-button:disabled svg {
+  fill: #8D8E97;
+}
+.primary-button:not([disabled]):hover {
+  background-color: #5360CD;
+}
+
+.secondary-button {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background: #E8E8E8;
+  color: #313037;
+}
+.secondary-button svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.secondary-button:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.secondary-button:disabled svg {
+  fill: #8D8E97;
+}
+.secondary-button:not([disabled]):hover {
+  background-color: #DADADA;
+}
+
+.secondary2-button {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background: transparent;
+  color: #FD3419;
+}
+.secondary2-button svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.secondary2-button:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.secondary2-button:disabled svg {
+  fill: #8D8E97;
+}
+.secondary2-button:not([disabled]):hover {
+  background-color: transparent;
+  box-shadow: 0px 0px 1px 2px #E5E5E5 inset;
+}
+
+.button-with-icon {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #E8E8E8;
+  color: #313037;
+}
+.button-with-icon svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.button-with-icon:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.button-with-icon:disabled svg {
+  fill: #8D8E97;
+}
+.button-with-icon:not([disabled]):hover {
+  background-color: #5360CD;
+  color: #FFFFFF;
+}
+.button-with-icon:not([disabled]):hover svg {
+  fill: white;
+}
+
+.like-button {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #E8E8E8;
+  color: #313037;
+}
+.like-button svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.like-button:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.like-button:disabled svg {
+  fill: #8D8E97;
+}
+.like-button:not([disabled]):hover {
+  background-color: #5360CD;
+  color: #FFFFFF;
+}
+.like-button:not([disabled]):hover svg {
+  fill: white;
+}
+
+.dizlike-button {
+  margin: 10px 5px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #E8E8E8;
+  color: #313037;
+}
+.dizlike-button svg {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+}
+.dizlike-button:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.dizlike-button:disabled svg {
+  fill: #8D8E97;
+}
+.dizlike-button:not([disabled]):hover {
+  background-color: #FD3419;
+  color: #FFFFFF;
+}
+.dizlike-button:not([disabled]):hover svg {
+  fill: white;
+}
+
+/*# sourceMappingURL=Button.css.map */
