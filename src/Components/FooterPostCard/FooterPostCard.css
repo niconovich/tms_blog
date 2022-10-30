@@ -1,0 +1,124 @@
+@font-face {
+  font-family: DIN Pro;
+  src: url("../../assets/fonts/dinpro_bold.otf") format("opentype");
+}
+.default {
+  padding-top: 32px;
+  margin: 10px 5px;
+}
+.default label {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}
+.default svg {
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+  margin-left: 10px;
+  text-align: center;
+}
+.default hr {
+  margin-top: 40px;
+  color: #DADADA;
+  size: 1px;
+}
+.default #footerButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.default:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.default:not([disabled]):hover svg {
+  fill: #313037;
+}
+
+.average {
+  padding-top: 32px;
+  margin: 10px 5px;
+  padding-top: 20px;
+}
+.average label {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}
+.average svg {
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+  margin-left: 10px;
+  text-align: center;
+}
+.average hr {
+  margin-top: 40px;
+  color: #DADADA;
+  size: 1px;
+}
+.average #footerButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.average:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.average hr {
+  margin-top: 30px;
+}
+.average:not([disabled]):hover svg {
+  fill: #313037;
+}
+
+.small {
+  padding-top: 32px;
+  margin: 10px 5px;
+  padding-top: 20px;
+}
+.small label {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313037;
+}
+.small svg {
+  width: 18px;
+  height: 18px;
+  fill: #313037;
+  margin-left: 10px;
+  text-align: center;
+}
+.small hr {
+  margin-top: 40px;
+  color: #DADADA;
+  size: 1px;
+}
+.small #footerButtons {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.small:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.small hr {
+  margin-top: 30px;
+}
+.small:not([disabled]):hover svg {
+  fill: #313037;
+}
+
+/*# sourceMappingURL=FooterPostCard.css.map */

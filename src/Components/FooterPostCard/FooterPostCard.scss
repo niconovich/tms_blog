@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: DIN Pro;
+  src: url("../../assets/fonts/dinpro_bold.otf") format("opentype");
+}
+
+@mixin FooterPostCadr {
+  padding-top: 32px;
+  margin: 10px 5px;
+  label{
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#313037;
+  }
+  svg{
+    width: 18px;
+    height: 18px;
+    fill: #313037;
+    margin-left: 10px;
+    text-align: center;
+  }
+  hr {
+    margin-top: 40px;
+    color:#DADADA;
+    size:1px;
+
+  }
+  #footerButtons{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &:disabled {
+    background-color: #E8E8E8;
+    color: #8D8E97;
+  }
+}
+
+.default {
+  @include FooterPostCadr();
+
+  &:not([disabled]):hover {
+    svg{
+        fill: #313037;
+      }
+
+  }
+}
+
+.average {
+  @include FooterPostCadr();
+  padding-top: 20px;
+  hr {
+    margin-top: 30px;
+  }
+  &:not([disabled]):hover {
+    svg{
+      fill: #313037;
+    }
+
+  }
+}
+
+.small{
+  @include FooterPostCadr();
+  padding-top: 20px;
+  hr {
+    margin-top: 30px;
+  }
+  &:not([disabled]):hover {
+    svg{
+      fill: #313037;
+    }
+
+  }
+}

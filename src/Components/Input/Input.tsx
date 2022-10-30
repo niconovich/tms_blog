@@ -1,5 +1,5 @@
 import React, {type ChangeEvent, useState} from 'react';
-import './input.scss'
+import './Input.scss'
 
 type InputProps ={
     type?:string
@@ -9,6 +9,7 @@ type InputProps ={
     className?:string
     textError?:string
     error?:boolean
+
 }
 
 
@@ -21,16 +22,17 @@ export const Input = ({type='text',label,placeholder,disabled=false,className,te
         setValue(targetValue)
     }
     return (
-        <label className={`input ${className}`}>
-            {label}
+
+        <label className={`input-default`}>
+          {label} <br/>
             <input
                 type={type}
                 value={value}
                 onChange={henleChange}
                 placeholder={placeholder}
                 disabled={disabled}/>
-
-            {error&& <span>{textError}</span>}
+            {error&& <br/>}
+            {error&&  <span >{textError}</span>}
         </label>
 
     );
