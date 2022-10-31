@@ -1,8 +1,8 @@
 import React from "react";
 
 type PostCardProps = {
-  className: string;
-  variant: string;
+  className?: string;
+  variant?: string;
 };
 
 export const PostCard = ({ className, variant }: PostCardProps) => {
