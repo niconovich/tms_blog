@@ -2,7 +2,8 @@ import React,{useState} from 'react';
 import './App.scss';
 
 import { Button } from  './Components/Button/Button';
-
+import {postData} from './data'
+import {PostСard} from "./Components/PostСard/PostСard";
 import {Input} from './Components/Input/Input'
 
 
@@ -31,9 +32,15 @@ export const App=() => {
         <Button styles="like-button" icon="up" disabled={true} />
         <Button styles="dizlike-button"  icon="down" disabled={true}/>
     </div>
+          <div>
+              <PostСard typePostСard='default' id={postData.id} author={postData.author} title={postData.title} image={postData.image} text={postData.text} date={postData.date} lesson_num={postData.lesson_num} />
+              <PostСard typePostСard='average' id={postData.id} author={postData.author} title={postData.title} image={postData.image} text={postData.text} date={postData.date} lesson_num={postData.lesson_num}/>
+              <PostСard typePostСard='small' id={postData.id} author={postData.author} title={postData.title} image={postData.image} text={postData.text} date={postData.date} lesson_num={postData.lesson_num} />
 
+          </div>
     </div>
   );
 }
+
 
 

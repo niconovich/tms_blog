@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.default {
+  width: 740px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 10px 5px;
+}
+.default #CardBody {
+  display: flex;
+}
+.default #DatePost {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8D8E97;
+}
+.default #TitlePost {
+  text-align: left;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #313037;
+}
+.default #TextPost {
+  margin-top: 24px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8D8E97;
+}
+.default img {
+  margin-left: 32px;
+  width: 250px;
+  height: 250px;
+}
+.default:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.default:not([disabled]):hover #TitlePost {
+  color: #2231AA;
+}
+
+.average {
+  width: 740px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 10px 5px;
+  width: 353px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 10px 5px;
+}
+.average #CardBody {
+  display: flex;
+}
+.average #DatePost {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8D8E97;
+}
+.average #TitlePost {
+  text-align: left;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #313037;
+}
+.average #TextPost {
+  margin-top: 24px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8D8E97;
+}
+.average img {
+  margin-left: 32px;
+  width: 250px;
+  height: 250px;
+}
+.average:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.average #CardBody {
+  display: flex;
+  flex-flow: column-reverse;
+}
+.average #TextPost {
+  display: none;
+}
+.average #TitlePost {
+  margin-top: 8px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.average #DatePost {
+  margin-top: 24px;
+}
+.average:not([disabled]):hover #TitlePost {
+  color: #2231AA;
+}
+
+.small {
+  width: 740px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 10px 5px;
+  width: 353px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 10px 5px;
+}
+.small #CardBody {
+  display: flex;
+}
+.small #DatePost {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8D8E97;
+}
+.small #TitlePost {
+  text-align: left;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #313037;
+}
+.small #TextPost {
+  margin-top: 24px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8D8E97;
+}
+.small img {
+  margin-left: 32px;
+  width: 250px;
+  height: 250px;
+}
+.small:disabled {
+  background-color: #E8E8E8;
+  color: #8D8E97;
+}
+.small #CardBody {
+  display: flex;
+  flex-flow: row;
+}
+.small #TextPost {
+  display: none;
+}
+.small #TitlePost {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.small img {
+  margin-left: 32px;
+  width: 92px;
+  height: 92px;
+}
+.small:not([disabled]):hover #TitlePost {
+  color: #2231AA;
+}
+
+/*# sourceMappingURL=PostCard.css.map */

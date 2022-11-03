@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@mixin PostCadr {
+  width: 740px;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 10px 5px;
+  #CardBody {
+    display: flex;
+  }
+  #DatePost {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+  }
+  #TitlePost {
+    text-align: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #313037
+  }
+  #TextPost{
+    margin-top: 24px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8D8E97
+  }
+  img {
+    margin-left: 32px;
+    width: 250px;
+    height: 250px;
+  }
+  &:disabled {
+    background-color: #E8E8E8;
+    color: #8D8E97;
+   }
+}
+
+.default {
+  @include PostCadr();
+
+  &:not([disabled]):hover {
+    #TitlePost {
+      color: #2231AA
+    }
+  }
+}
+
+.average {
+  @include PostCadr();
+  width: 353px;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 10px 5px;
+  #CardBody {
+    display: flex;
+    flex-flow: column-reverse;
+
+  }
+  #TextPost{
+    display: none;
+  }
+  #TitlePost {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  #DatePost{
+    margin-top: 24px;
+  }
+  &:not([disabled]):hover {
+    #TitlePost {
+      color: #2231AA
+    }}
+}
+
+.small {
+  @include PostCadr();
+  width: 353px;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 10px 5px;
+  #CardBody {
+    display: flex;
+    flex-flow: row;
+  }
+  #TextPost{
+    display: none;
+  }
+  #TitlePost {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  img {
+    margin-left: 32px;
+    width: 92px;
+    height: 92px;
+  }
+  &:not([disabled]):hover {
+    #TitlePost {
+      color: #2231AA
+    }}
+}
