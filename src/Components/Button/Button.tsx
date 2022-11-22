@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Icon} from 'src/Components/Icon/Icon'
+import {Icon} from 'src/components/Icon/Icon'
 import './Button.scss'
 
 type ButtonSettings = {

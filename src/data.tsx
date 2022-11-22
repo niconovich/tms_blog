@@ -10,7 +10,6 @@ type Post={
     author: number
 }
 
-
 export const postData:Post={
     id: 11,
     image: "https://cdn.pixabay.com/photo/2022/01/27/21/39/flower-6973184_960_720.jpg",

@@ -1,6 +1,6 @@
 import React from 'react';
 import './PostCard.scss'
-import {FooterPostCard} from 'src/Components/FooterPostCard/FooterPostCard'
+import {FooterPostCard} from 'src/components/FooterPostCard/FooterPostCard'
 import {Simulate} from "react-dom/test-utils";
 import select = Simulate.select;
 
